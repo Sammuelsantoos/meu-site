@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+#titulo-principal {
+    text-align: center;
+    color:#1a237e;
+
+}
+
+.texto-destaque {
+    background-color: #e3f2fd;
+    border-left: 4px solid #1976d2;
+    padding: 10px;
+}
+
+article[data-tipo="projeto-pessoal"] {
+    background-color: #ffe0b2;
+
+}
+
+nav ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: #0d47a1;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #212121;
+    color: #f5f5f5;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #f5f5f5
+}
+
+footer a:hover {
+    text-decoration: underline;
+    
+}
